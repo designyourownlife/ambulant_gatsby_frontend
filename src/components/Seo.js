@@ -10,7 +10,6 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 function Seo({ description, title, pathname, children }) {
-  // console.log(pathname)
   const { site } = useStaticQuery(
     graphql`
       query {

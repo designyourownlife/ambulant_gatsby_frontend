@@ -66,7 +66,6 @@ const MainNav = ({ sideNav, toggleNav, closeMobileNav }) => {
   }, [scrollDiv, handleOnScroll])
 
   useEffect(() => {
-    // console.log("set scrollTop to " + scrollY)
     scrollDiv.current.scrollTop = scrollY
   }, [scrollY])
 

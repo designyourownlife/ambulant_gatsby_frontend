@@ -18,10 +18,6 @@ const initialSearchState = {
 }
 
 export default function SearchPage(props) {
-  // ********
-  // const { searchObj, setSearchObj } = useGlobalContext()
-  // console.log(searchObj)
-  // ********
   const [searchState, setSearchState] = useLocalStorageState("searchState", {
     ssr: true,
     defaultValue: initialSearchState,
